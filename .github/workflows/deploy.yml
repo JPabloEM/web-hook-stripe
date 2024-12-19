@@ -20,4 +20,4 @@ jobs:
       - name: Deploy Supabase Edge Function
         env:
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
-        run: npx supabase functions deploy hello-world --project-ref bmpvyiblaiplrqcllkyy
+        run: npx supabase functions deploy web-hook-stripe --project-ref bmpvyiblaiplrqcllkyy
